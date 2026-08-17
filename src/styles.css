@@ -65,10 +65,10 @@
   --radius: 0.75rem;
 
   /* Charte FOPASE — bleu royal (logo) + or institutionnel (lauriers) */
-  --navy:          oklch(0.36 0.175 258);   /* bleu royal profond  */
+  --navy:          oklch(40.812% 0.12032 262.419);   /* bleu royal profond  */
   --navy-soft:     oklch(0.44 0.178 258);   /* bleu royal hover    */
   --navy-foreground: oklch(0.99 0 0);       /* blanc sur bleu      */
-  --electric:      oklch(0.55 0.185 258);   /* bleu moyen – actifs */
+  --electric:      oklch(56.781% 0.14103 257.47);   /* bleu moyen – actifs */
   --electric-foreground: oklch(0.99 0 0);
   --ember:         oklch(0.74 0.162 82);    /* or FOPASE (lauriers)*/
   --ember-foreground: oklch(0.22 0.06 258); /* bleu foncé sur or   */
