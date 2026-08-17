@@ -6,6 +6,7 @@ import { TanStackRouterVite } from "@tanstack/router-plugin/vite";
 import { prerenderMeta } from "./vite-plugin-prerender";
 
 export default defineConfig({
+  base: process.env.GITHUB_PAGES ? "/fopase/" : "/",
   plugins: [
     TanStackRouterVite({ target: "react", autoCodeSplitting: true }),
     react(),
